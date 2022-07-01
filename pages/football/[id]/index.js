@@ -47,7 +47,7 @@ export const getStaticPaths = async () => {
     method: 'GET',
     headers: {
       'X-RapidAPI-Host': 'football-web-pages1.p.rapidapi.com',
-      'X-RapidAPI-Key': 'e61824c92dmsh74a11d12e65e67ap1245b1jsn70b30e90c382'
+      'X-RapidAPI-Key': process.env.RAPID_API_KEY,
     }
   };
   
